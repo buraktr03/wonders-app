@@ -10,14 +10,12 @@
     height: 350px;
     position: relative;
     overflow: hidden;
-    &:hover .card-over{
-        transform: translateY(0%);
+    &:hover .card-over {
+      transform: translateY(0%);
     }
-    &:hover img{
-        opacity: 1;
+    &:hover img {
+      opacity: 1;
     }
-
-
   }
   .title {
     position: absolute;
@@ -29,7 +27,7 @@
     border-radius: 10px 20px 20px 20px;
     z-index: 2;
   }
-  .date {
+  .name {
     position: absolute;
     // perfect centering trick
     top: 50%;
@@ -39,17 +37,18 @@
     color: $cardNavBgColor;
     padding: 1rem;
     font-size: 0.5rem;
+    letter-spacing: 0.2rem;
     border-radius: 10px;
     z-index: 2;
   }
-  img{
+  img {
     width: 500px;
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
     opacity: 0.5;
   }
-  .card-over{
+  .card-over {
     width: 500px;
     position: absolute;
     bottom: 0;
@@ -63,9 +62,8 @@
     max-height: 75%;
     overflow: auto;
 
-    &::-webkit-scrollbar{
-        display: none;
+    &::-webkit-scrollbar {
+      display: none;
     }
-    
   }
 }

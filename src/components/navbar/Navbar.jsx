@@ -1,5 +1,5 @@
-import logo from "../../helper/logo.png"
-import "./Navbar.scss"
+import logo from "../../helper/logo.png";
+import "./Navbar.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -7,11 +7,10 @@ const Navbar = () => {
         <img src={logo} alt="horoscope" />
       </div>
       <div className="links">
-      <a href="#horoscope">Horoscope</a>
-      <a href="#daily">Daily</a>
-      <a href="#tarot">Tarot</a>
-      <a href="#article">Article</a>
-      <a href="#contact">Contact</a>
+        <a href="#wonders">Wonders</a>
+        <a href="#countries">Countries</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

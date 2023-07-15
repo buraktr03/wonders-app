@@ -1,13 +1,13 @@
 import "./Main.scss"
 
-const Card = ({title,date,image,desc}) => {
+const Card = ({title,name,image,desc}) => {
   return (
     <div className="cards">
       <div className="title">
         <h1>{title}</h1>
       </div>
-      <div className="date">
-        <h2>{date}</h2>
+      <div className="name">
+        <h2>{name}</h2>
       </div>
       <img src={image} alt="" />
       <div className="card-over">

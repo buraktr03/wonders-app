@@ -9,7 +9,7 @@ const Card = ({title,name,image,desc}) => {
       <div className="name">
         <h2>{name}</h2>
       </div>
-      <img src={image} alt="" />
+      <img src={image} alt="" loading="lazy"/>
       <div className="card-over">
         <p>{desc}</p>
       </div>
